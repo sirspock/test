@@ -1,11 +1,11 @@
 step: 1
-name: test
-docker_image: test:latest
+name: test2
+docker_image: test2:latest
 framework: !!python/object/apply:mic.constants.Framework
 - !!python/tuple
   - general
   - mintproject/generic:latest
-container_name: test_b0a67764
+container_name: test2_9f74c860
 github_repo_url: https://github.com/mosoriob/test.git
-version: 20.7.1
+version: 20.7.2
 mint_component_url: https://raw.githubusercontent.com/mosoriob/test/master/mint_component.zip
