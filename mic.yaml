@@ -7,5 +7,5 @@ framework: !!python/object/apply:mic.constants.Framework
   - mintproject/generic:latest
 container_name: test_50775c04
 github_repo_url: https://github.com/mosoriob/test.git
-version: 20.7.3
+version: 20.7.4
 mint_component_url: https://raw.githubusercontent.com/mosoriob/test/master/mint_component.zip
