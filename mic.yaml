@@ -1,5 +1,5 @@
 step: 1
-name: test2
+name: test
 docker_image: test2:latest
 framework: !!python/object/apply:mic.constants.Framework
 - !!python/tuple
