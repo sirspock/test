@@ -1,0 +1,8 @@
+step: 1
+name: test
+docker_image: test:latest
+framework: !!python/object/apply:mic.constants.Framework
+- !!python/tuple
+  - general
+  - mintproject/generic:latest
+container_name: test_3ba1a1a1
